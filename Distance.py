@@ -9,7 +9,16 @@ class Distance:
         self.address2 = node2
 
     def __str__(self):
-        return "from  %s to %s is: %s" %(self.address1,self.address2, self.distance)
+        return "from  %s to %s is: %s" % (self.address1, self.address2, self.distance)
 
     def id(self):
         return self.__str__()
+
+    def get_distance(self):
+        return self.distance
+
+    def get_address1(self):
+        return self.address1
+
+    def get_address2(self):
+        return self.address2
