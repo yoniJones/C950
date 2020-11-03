@@ -1,4 +1,4 @@
-# C950 WGUPS package delivery system
+# C950 WGUPS Package Delivery System
 
 The WGUPS Package Delivery system is a type of Traveling Salesman program. In this program, I am required to find the best route for a delivery truck based on a list of constraints. This program was built using the Python programming language and designed using the OOP approach.
 
